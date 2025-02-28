@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArithmeTrix - Calculadora de Operações Aritméticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ArithmeTrix</h1>
+        <div class="input-group">
+            <label for="num1">Informe o primeiro número:</label>
+            <input type="number" id="num1" required>
+        </div>
+        <div class="input-group">
+            <label for="operacao">Escolha a operação:</label>
+            <select id="operacao" required>
+                <option value="soma">Soma</option>
+                <option value="subtração">Subtração</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="num2">Informe o segundo número:</label>
+            <input type="number" id="num2" required>
+        </div>
+        <button onclick="calcular()">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
