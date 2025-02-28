@@ -42,9 +42,9 @@ A aplicação realiza os seguintes passos:
 ## 📂 Estrutura do Projeto
 ArithmeTrix/
 │-- index.html         # Interface principal
-│-- script.js          # Lógica de cálculos
+│-- script.js          # Script para cálculos aritméticos
 │-- style.css          # Estilos da aplicação
-
+│-- README.md          # Documentação do projeto
 
 ---
 
