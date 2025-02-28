@@ -40,12 +40,13 @@ A aplicação realiza os seguintes passos:
 ---
 
 ## 📂 Estrutura do Projeto
+```bash
 ArithmeTrix/
 │-- index.html         # Interface principal
 │-- script.js          # Script para cálculos aritméticos
 │-- style.css          # Estilos da aplicação
 │-- README.md          # Documentação do projeto
-
+```
 ---
 
 ## 📜 Licença
